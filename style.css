@@ -1,4 +1,4 @@
-:root{
+:root {
     --branco-principal: #ffffff;
     --cinza-secundario: #cococo;
     --botao-azul: #167bf7;
@@ -7,14 +7,16 @@
     --botao-azul-efeito: #3c92fa;
 
 }
-body{
+
+body {
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
 
@@ -32,16 +34,17 @@ body{
     height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
- }
+}
 
- .container_caixa {
+.container_caixa {
     margin: 0 6em;
 }
- 
+
 .container_titulo {
     font-size: 28px;
     font-weight: 700;
 }
+
 .container__imagem {
     margin: 1em 0 2em 0;
 }
@@ -54,29 +57,31 @@ body{
     display: block;
     text-decoration: none;
     margin-bottom: 1em;
- }
+}
 
 
- .botao_secundario {
+.botao_secundario {
     background-color: transparent;
     border: 2px solid var(--branco-principal)
- }
+}
 
- .container_aviso {
+.container_aviso {
     font-size: 12px;
     color: var(--cinza-secundario);
- }
+}
 
- .secundario {
-align-items: center;
-margin: 0 10em;
+.secundario {
+    align-items: center;
+    margin: 0 10em;
 }
+
 .secundario__imagem {
-width: 80%;
+    width: 80%;
 }
+
 .container__descricao {
-padding:
-2em;
+    padding:
+        2em;
 }
 
 .descricao__titulo {
@@ -85,16 +90,18 @@ padding:
     color: var(--branco-principal);
     margin-bottom: 0.1em;
 }
- .descricao_texto {
+
+.descricao_texto {
     color: var(--cinza-secundario);
 }
 
 .descricao__texto {
     color: var(--cinza-secundario);
 }
+
 .secundario__botao {
     display:
-    inline-block;
+        inline-block;
     margin-top: 1em;
 }
 
@@ -105,7 +112,7 @@ padding:
 
 .dispositivos__titulo {
     font-size: 48px;
-    color : var(--branco-principal);
+    color: var(--branco-principal);
 }
 
 .dispositivos__lista {
@@ -132,7 +139,7 @@ padding:
     margin-top: 1em;
 }
 
-.lista__link a{
+.lista__link a {
     text-decoration: none;
     color: var(--branco-principal);
     margin-left: 1em;
